@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # --- 配置区域 ---
 # 1. 这里填你的 DeepSeek API Key
-API_KEY = st.secrets["sk-fa95b36130c64b1f96c6a2217340147b"]
+API_KEY = st.secrets["DEEPSEEK_KEY"]
 
 # 2. DeepSeek 的固定地址
 BASE_URL = "https://api.deepseek.com"
